@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    background: rgb(248,248,248);
+    background: linear-gradient( rgba(248,248,248,1) 50%, rgba(248,247,6,1) 50%);}
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 850px;
+    width: 1130px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 40px;
+    left: 80px;
+    right: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(23, 22, 22);
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px
+   
+}
+.a1{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+   
+    
+}
+.a2{
+    position: relative;
+    right: 50px;
+  
+    >button{
+        background-color: yellow;
+        width: 100px;
+        height: 30px;
+        border: 1px solid black;
+        position: relative;
+        left: 25px;
+    }
+    .button1{
+        background-color: rgb(255, 255, 255);
+        width: 100px;
+        height: 30px;
+        border: 1px solid black;
+        position: relative;
+        left: 20px;
+        background-color: aquamarine;
+    }
+}
+.container-2{
+       position: relative;
+       top: 40px;
+       left: 22px;
+      nav li{
+        list-style: none;
+        display: inline-block;
+        justify-content: space-between;
+        >a{
+            text-decoration: none;
+            color: black;
+          
+        }
+        >a:hover{
+            cursor: pointer;
+            text-decoration: underline rgb(238, 242, 6);
+            color: red;
+        }
+      }
+}
+.container-3{
+      position: relative;
+       top: 80px;
+       left: 25px;
+       display: flex;
+       gap: 50px;
+
+
+      .ad{
+        box-shadow: 2px 2px 2px 2px rgb(23, 22, 22);
+
+        border-radius: 5px;
+        width: 230px;
+        height: 220px;
+        background-color: rgb(235, 239, 238);
+        .aa{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+           top: 8px;
+           left: 15px;
+           color: red;
+           }
+           h6{
+            position: relative;
+            bottom: 8px;
+            left: 20px;
+            font-size: 15px;
+           }
+           img{
+            position: relative;
+            left:10px;
+           }
+          .a{
+            position: relative;
+            right:30px;
+           }
+      }
+      
+}
+.container-4{
+    position: relative;
+     top: 100px;
+     left: 25px;
+     display: flex;
+     gap: 50px;
+
+    .ad{
+        box-shadow: 2px 2px 2px 2px rgb(23, 22, 22);
+
+      border-radius: 5px;
+      width: 230px;
+      height: 220px;
+      background-color: rgb(235, 239, 238);
+      .aa{
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+         top: 8px;
+         left: 15px;
+         color: red;
+         }
+         h6{
+          position: relative;
+          bottom: 8px;
+          left: 20px;
+          font-size: 15px;
+         }
+         img{
+          position: relative;
+          left:10px;
+         }
+        .a{
+          position: relative;
+          right:30px;
+         }
+    }
+    
+}
+.container-5{
+    position: relative;
+     top: 120px;
+     left: 25px;
+     display: flex;
+     gap: 50px;
+
+    .ad{
+        box-shadow: 2px 2px 2px 2px rgb(23, 22, 22);
+
+      border-radius: 5px;
+      width: 230px;
+      height: 220px;
+      background-color: rgb(235, 239, 238);
+      .aa{
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+         top: 8px;
+         left: 15px;
+         color: red;
+         }
+         h6{
+          position: relative;
+          bottom: 8px;
+          left: 20px;
+          font-size: 15px;
+         }
+         img{
+          position: relative;
+          left:10px;
+         }
+        .a{
+          position: relative;
+          right:30px;
+         }
+    }
+    
+}
+.ad:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(157, 150, 19);
+    background-color: aqua;
+
+}
+h1:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: red;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}
